@@ -95,5 +95,18 @@ namespace Пять
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void about_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Практическая работа №5\n\nДунаева М.И\n\nВариант 14\n\n" +
+                "Создать класс Liquid (жидкость), имеющий поля названия, плотности и объема." +
+                "Создать необходимые методы и свойства. Создать перегруженные методы" +
+                "SetParams, для установки параметров жидкости");
+        }
     }
 }

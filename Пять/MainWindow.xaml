@@ -28,5 +28,10 @@
         <TextBox x:Name="l2_vol" Width="100" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 0, 100, 10"></TextBox>
         <Button x:Name="btn_Add2" Width="120" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 100, 100, 0" Content="Добавить" Click="btn_Add2_Click"></Button>
         <Button x:Name="btn_Edit2" Width="120" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 160, 100, 0" Content="Изменить" Click="btn_Edit2_Click"></Button>
+
+        <Menu Width="140" Height="20" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <MenuItem x:Name="exit" Header="Выход" Click="exit_Click"></MenuItem>
+            <MenuItem x:Name="about" Header="О программе" Click="about_Click"></MenuItem>
+        </Menu>
     </Grid>
 </Window>
